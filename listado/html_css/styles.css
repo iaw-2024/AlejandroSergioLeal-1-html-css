@@ -6,7 +6,7 @@ body {
     color: rgb(153, 153, 153);
 }
 
-h2 {
+h1 {
     text-align: center;
     font: italic normal bold 128px "Times New Roman", Times, serif;
     color: red;
@@ -63,3 +63,9 @@ ul {
     background-color: rgb(116, 220, 255); /* Nuevo color de fondo al hacer clic */
 }
 
+footer{
+    margin-top: 48px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 14px;
+}
