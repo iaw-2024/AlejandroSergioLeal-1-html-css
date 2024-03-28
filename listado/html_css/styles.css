@@ -30,6 +30,34 @@ ul {
     list-style-type: none;
 }
 
+.toolbar{
+    display: inline-block;
+    text-align: center;
+    background-color: none; 
+    padding: 5px; 
+    padding-right: 75px;
+    padding-left: 75px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: rgb(220, 220, 255);
+    box-shadow: 0 0 16px 1px rgb(100,100,255);
+}
+.tb-item{
+    display: inline; /* Muestra los elementos de lista en línea */
+    margin-right: 40px; /* Espacio entre los elementos de lista */
+}
+
+.tb-link{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.tb-link:hover{
+    text-shadow: 0px 0px 10px rgb(255, 255, 255),
+                 0px 0px 10px rgb(255, 255, 255);
+}
+
 .imagen{
     height: 180px;
     width: 320px;
@@ -83,3 +111,4 @@ footer{
     text-align: center;
     font-size: 14px;
 }
+
