@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,10 +7,23 @@ body {
     color: rgb(153, 153, 153);
 }
 
-h1 {
+.logo-shadow {
     text-align: center;
-    font: italic normal bold 128px "Times New Roman", Times, serif;
-    color: red;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;    
+    text-shadow: 
+        3px 0px 0px blue,
+        -3px 0px 0px blue,
+        0px 3px 0px blue,
+        0px -3px 0px blue,
+        0px 0px 20px rgb(100, 100, 255),
+        0px 0px 32px rgb(150, 150, 255),
+        0px 0px 32px rgb(150, 150, 255),
+        0px 0px 64px rgb(200,200,255);
+    text-decoration: underline;
 }
 
 ul {
