@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario TailwindCSS</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-black text-white">
+  <div class="flex justify-center mt-5">
+    <h1 class="text-3xl font-bold mb-5">Agregar canción</h1>
+  </div>
+  <div class="flex justify-center">
+    <form class="w-full max-w-lg bg-gray-800 rounded-lg shadow-lg p-8">
+      <div class="mb-4">
+        <label for="titulo" class="block text-gray-400 text-sm mb-2">Título de la canción:</label>
+        <input id="titulo" type="text" name="titulo" class="border rounded w-full py-2 px-3 text-white bg-black" required>
+      </div>
+      <div class="mb-4">
+        <label for="anio" class="block text-gray-400 text-sm mb-2">Año de lanzamiento:</label>
+        <input id="anio" type="number" name="anio" class="border rounded w-full py-2 px-3 text-white bg-black" min="1980" max="1989" required>
+      </div>
+      <div class="mb-4">
+        <label for="descripcion" class="block text-gray-400 text-sm mb-2">Descripción breve:</label>
+        <textarea id="descripcion" name="descripcion" class="border rounded w-full py-2 px-3 text-white bg-black" required></textarea>
+      </div>
+      <div class="mb-4">
+        <label for="url_imagen" class="block text-gray-400 text-sm mb-2">URL de imagen:</label>
+        <input id="url_imagen" type="url" name="url_imagen" class="border rounded w-full py-2 px-3 text-white bg-black" required>
+      </div>
+      <div class="mb-4">
+        <label for="url_video" class="block text-gray-400 text-sm mb-2">URL de video:</label>
+        <input id="url_video" type="url" name="url_video" class="border rounded w-full py-2 px-3 text-white bg-black" required>
+      </div>
+      <div class="mb-4">
+        <label for="url_letra" class="block text-gray-400 text-sm mb-2">URL de letra:</label>
+        <input id="url_letra" type="url" name="url_letra" class="border rounded w-full py-2 px-3 text-white bg-black" required>
+      </div>
+      <div class="flex justify-center">
+        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">Enviar</button>
+      </div>
+    </form>
+  </div>
+  <footer class="mt-16 mb-6 text-center">Alejandro Leal - IAW 2024</footer>
+</body>
+</html>
