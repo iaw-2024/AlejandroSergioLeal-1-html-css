@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario HTML+CSS</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png"
+    href="https://cdn.icon-icons.com/icons2/643/PNG/64/music-note-circle-shape-brand_icon-icons.com_59304.png">
+</head>
+
+<body>
+  <h1 class="logo-shadow">Agregar nueva canción</h1>
+  <div class="form-container">
+    <form action="#" method="POST" class="song-form">
+      <label for="song-name">Nombre de la Canción:</label>
+      <input type="text" id="song-name" name="song-name" required>
+
+      <label for="release-year">Año de Lanzamiento:</label>
+      <input type="number" id="release-year" name="release-year" min="1980" max="1989" required>
+
+      <label for="description">Descripción Breve:</label>
+      <textarea id="description" name="description" rows="4" required></textarea>
+
+      <label for="image-url">URL de la Imagen:</label>
+      <input type="url" id="image-url" name="image-url" required>
+
+      <label for="song-url">URL de la cancion:</label>
+      <input type="url" id="song-url" name="song-url" required>
+
+      <label for="letra-url">URL de la Letra:</label>
+      <input type="url" id="letra-url" name="letra-url" required>
+
+      <button type="submit" class="boton boton_verde">Agregar Canción</button>
+    </form>
+  </div>
+  <footer>Alejandro Leal - IAW 2024</footer>
+</body>
+
+</html>
