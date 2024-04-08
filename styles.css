@@ -1,5 +1,5 @@
 body {
-    background-color: #171f27;
+    background-color: #0b0f13;
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -35,7 +35,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 nav ul li a:hover {
