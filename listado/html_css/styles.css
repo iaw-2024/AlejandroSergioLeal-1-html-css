@@ -105,7 +105,7 @@ ul {
 .caja-botones{
     display:flex;
     flex-direction: row;
-    justify-content: baseline;
+    align-items: center;
 }
 .boton{
     margin-right: 10px;
@@ -124,12 +124,23 @@ ul {
 .boton_verde:active {
     background-color: rgb(10, 156, 10); /* Nuevo color de fondo al hacer clic */
 }
-
 .boton_azul{
     background-color: deepskyblue;
 }
 .boton_azul:active {
     background-color: rgb(116, 220, 255); /* Nuevo color de fondo al hacer clic */
+}
+.boton_edit{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+.icono{
+    width: 32px;
+    height: 32px;
 }
 
 footer{
